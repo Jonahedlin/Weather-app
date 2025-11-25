@@ -27,19 +27,19 @@ async function checkWeather() {
    
 
    if(selector === "Clouds"){
-    iconSelect.innerHTML = "<img src='images/clouds.png' alt='clouds' id='clouds'>";
+    iconSelect.innerHTML = "<img src='clouds.png' alt='clouds' id='clouds'>";
    }
    else if(selector === "Cloudy"){
-    iconSelect.innerHTML = "<img src='images/cloudy.png' alt='cloudy' id='cloudy'>";
+    iconSelect.innerHTML = "<img src='cloudy.png' alt='cloudy' id='cloudy'>";
    }
    else if(selector === "Sun"){
-    iconSelect.innerHTML = "<img src='images/sunny.png' alt='sunny' id='sunny'>";
+    iconSelect.innerHTML = "<img src='sunny.png' alt='sunny' id='sunny'>";
    }
    else if(selector === "Rain"){
-    iconSelect.innerHTML = "<img src='images/heavy-rain.png' alt='rainy' id='rainy'>";
+    iconSelect.innerHTML = "<img src='heavy-rain.png' alt='rainy' id='rainy'>";
    }
    else if(selector === "Snow"){
-    iconSelect.innerHTML = "<img src='images/snow.png' alt='snowy' id='snowy'>";
+    iconSelect.innerHTML = "<img src='snow.png' alt='snowy' id='snowy'>";
    }
    else{
     iconSelect.innerHTML ="";
