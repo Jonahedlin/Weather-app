@@ -1,0 +1,79 @@
+
+body{
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #222;
+    display: block;
+
+}
+.block{
+    background-color: aqua;
+    display: block;
+    width:470px;
+    height:auto;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+}
+.searchBar{
+    display: flex;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    align-items: center;
+    justify-content: center;
+}
+#searchInput{
+    border-style: none;
+    border-radius: 10px;
+    background-color: aqua;
+    border-width: 1px;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+#searchIcon{
+    width: 20px;
+    height: auto;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+button{
+    border-style: none;
+    border-width: 0;
+    background-color: aqua;
+}
+#searchIcon:hover{
+    width: 20px;
+    height: auto;
+    padding: 5px 5px;
+    transition-duration: 200ms;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+}
+.card{
+    display: block;
+    margin: 50px 50px;
+}
+.temp{
+    padding: 10px 10px;
+    font-size: 30px;
+}
+.cityText{
+    font-size: 30px;
+    color: hotpink;
+}
+.extras{
+    display: inline-block;
+}
+#sunny, #rainy, #cloudy, #snowy, #clouds{
+    width: 150px;
+    height: auto;
+}
+#wind, #humidity{
+    width: 50px;
+    height: auto;
+    text-align: left;
+}
